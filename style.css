@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-image: url(eng.jpg);
+    background-size: cover;
+    color: white;
+}
+nav{
+    background: dodgerblue; 
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+}
+.btn{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }
+  .btn:hover{
+    background-color: DodgerBlue;
+  }
+
+  button a{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button a:hover {
+    background-color: DodgerBlue;
+  }
+  label.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+  }
+  nav ul{
+    float: right;
+    margin-right: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 42px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase;
+}
+a.active,a:hover{
+    background: grey;
+    transition: .5s;
+}
+
+.btn1{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    margin-left: 10pxSS;
+    
+  }
+  .btn1:hover{
+    background-color: RoyalBlue;
+  }
+
+  label.btn2{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    margin-left: 10pxSS;
+  }
+  label{
+      align-items: center;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+  }
